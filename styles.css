@@ -213,7 +213,7 @@ ul {
   }
   /* center image of the website*/
 .placeholder {
-  background: url('/images/first-photo.png') center no-repeat;
+  background: url('./images/first-photo.png') center no-repeat;
   background-size: cover;
   position: relative;
   display: block;
