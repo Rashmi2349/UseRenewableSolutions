@@ -129,7 +129,7 @@ ul {
   z-index: 2;
 }
 .side-menu-design {
-  background-image: url('/images/transparent.jpg');
+  background-image: url('./images/transparent.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -225,7 +225,7 @@ ul {
   margin: 2px 0 5px 0;
 }
 .placeholder:hover{
-  background: url('/images/first-repeat\ photo.jpeg') center no-repeat;
+  background: url('./images/first-repeat\ photo.jpeg') center no-repeat;
   background-size: cover;
   position: relative;
   display: block;
@@ -337,7 +337,7 @@ ul {
 
 @media (max-width: 1020px) {
  .placeholder{
-  background: url('/images/first-photo.png') center no-repeat;
+  background: url('./images/first-photo.png') center no-repeat;
   background-size:contain;
   position: relative;
   display: block;
