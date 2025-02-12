@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+    <meta name="viewport" content="width=702">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <h1>Let's start your project</h1>
+    <form id="contact-form">
+        <fieldset>
+            <legend>Your Contact Info</legend>
+          <div class="form-row">
+                <label for="name">Your Name</label>
+                <div class="name-fields">
+                    <div class="name-error-box error-box"></div>
+                    <input type="text" name="name[first]" placeholder="First" id="name" autofocus>
+                    <input type="text" name="name[last]" placeholder="Last">
+                </div>
+            </div>
+<div class="form-row">
+                <label for="phone">Phone Number</label>
+                <div class="phone-number-fields">
+                    <input type="text" name="phone[area_code]" class="phone" maxlength="3" id="phone"> &mdash;
+                    <input type="text" name="phone[prefix]" class="phone" maxlength="3"> &mdash;
+                    <input type="text" name="phone[line_number]" class="phone" maxlength="4">
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="address">Address</label>
+                <div class="address-fields">
+                    <input type="text" name="address[street_address]" placeholder="Street Address" class="address-street-address" id="address">
+                    <input type="text" name="address[line_2]" placeholder="Address Line 2" class="address-line-2">
+                    <input type="text" name="address[city]" placeholder="City" class="address-city">
+                    <input type="text" name="address[state]" placeholder="State" class="address-state">
+                    <input type="text" name="address[postal_code]" placeholder="Postal Code" class="address-postal-code">
+                </div>
+            </div>
+        </fieldset>
+      <fieldset>
+            <legend>Type of Property</legend>
+            <div class="form-row">
+              <label for="checkbox-container"></label>
+      <div class="checkbox-container">
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox1">
+          <label for="checkbox1"><span>Residential</span></label>
+        </div>
+         <div class="checkbox">
+          <input type="checkbox" id="checkbox2">
+          <label for="checkbox2"><span>Commercial</span></label>
+        </div>
+              </div>
+        </div>
+      </fieldset>
+      <fieldset>
+            <legend>What are you interested in?</legend>
+            <div class="form-row">
+              <label for="checkbox-container"></label>
+      <div class="checkbox-container">
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox3">
+          <label for="checkbox3"><span>Solar & Battery Solutions
+</span></label>
+        </div>
+         <div class="checkbox">
+          <input type="checkbox" id="checkbox4">
+          <label for="checkbox4"><span>Air Conditioning Solutions</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox5">
+          <label for="checkbox5"><span>Hot Water Systems
+</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox6">
+          <label for="checkbox6"><span>Others
+</span></label>
+        </div>
+              </div>
+        </div>
+      </fieldset>
+      <fieldset>
+            <legend>Comments</legend>
+        <div class="form-row">
+                <label for="comments">Comments</label>
+                <textarea id="comments"></textarea>
+            </div>
+        </fieldset>
+      <fieldset>
+             <input type="submit" value="Submit">
+        </fieldset> 
+    </form>
+    <script type="text/javascript" src="./script1.js"></script>
+</body>
+</html>
