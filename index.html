@@ -4,6 +4,16 @@
     <title>UseRenewable Solutions</title>
      <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald|Roboto|Ubuntu|Neuton|Roboto Condensed" rel="stylesheet">
      <link rel="stylesheet" href="style1.css">
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<!--<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "RkubytsN_jjp-ChA8",
+      });
+   })();
+</script>-->
   </head>
   <body>
     <main>
@@ -18,7 +28,7 @@
             <li class="lato" id="menu-3-button">Solar & Battery <br>Solutions</li>
             <li class="lato" id="menu-4-button">Air Conditioning<br>Solutions</li>
             <li class="lato" id="menu-5-button">Hot Water<br>Systems</li>
-            <li class="lato" id="menu-6-button">Energy Efiicient<br>Products</li>
+            <li class="lato" id="menu-6-button">Energy Efficient<br>Products</li>
             <li class="lato" id="menu-7-button">Contact Us</li>
           </ul>
         </section>
@@ -116,7 +126,7 @@
             <img src="./images/ICONS/energy.png" alt="output">
             <h5 class="roboto">Since 2018, our customers have avoided</h5>
             <p class="merriweather"><marquee behaviour="alternate">
-              112,845,311 +</marquee><br> pounds of CO2.<span class="ribbon">NEW</span></p>
+              112,845,311 +</marquee><br> pounds of CO2.</p>
           </div>
           <div class="icon-box">
             <img src="./images/ICONS/consultation-icon.png" alt="consultation icon">
@@ -234,6 +244,8 @@
               <h1 class="decorate6 lato big-black">info@userenewablesolutions.com.au</h1>
               <h2 class="decorate6 lato big-black">+61 012 345 698</h2>
               <p class="get-started" id="menu-10-button">Online Support</p>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
             </div>
             <!--CONTACT FORM ON SITE-->
   <form id="site-contactForm">
@@ -259,14 +271,36 @@
       <label for="subject">Comments</label>
       <textarea id="subject" placeholder="Your comments.."></textarea>
      </div>
-  <div><input type="submit" value="Submit"></div>
+  <div><input type="submit" value="Submit" onclick="sendEmail()"></div>
+
   </fieldset>
   </form>
+  <aside>
+    <div id="disqus_thread">
+  <script>
+      
+      var disqus_config = function () {
+      this.page.url = 'http://35.180.28.176/index.html';  
+      this.page.identifier = '/index.html'; 
+      };
+      
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://userenewable-solutions.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+  </div>
+    </aside>
 </section>
     </main>
     <footer class="footer-container">
       <p>Copyright © 2025 UseRenewable Solutions, All rights reserved.</p>
     </footer>
     <script type="text/javascript" src="./script.js"></script>
+    
   </body>
 </html>

@@ -113,5 +113,14 @@ function closeForm() {
 // reset the form once submitted
   appForm.reset();
   });
-   
+//send email
+function sendEmail(){
+  let parms = {
+  name : document.getElementById("fname").value,
+  phoneNumber : document.getElementById("phone").value,
+  email : document.getElementById("name").value,
+  subject : document.getElementById("subject").value,
+  }
+ emailjs.send("service_l37bj25","template_66grz8p",parms).then(alert("Email has been sent!!"))
+}   
     
