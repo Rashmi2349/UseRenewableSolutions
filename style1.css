@@ -51,7 +51,7 @@ ul {
 .nav li {
   font-size: 15px;
   margin: 0 20px;
-  padding: 0 3px;
+  padding: 0;
   cursor: pointer;
   font-weight: bolder;
 }
@@ -701,6 +701,7 @@ legend {
 .footer-container{
   text-align: center;
   padding: 10px;
+  border-color: #0b0b0b;
   background-color: #79d279;
   color: white;
   margin: 1px;
